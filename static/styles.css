@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.palette {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin-top: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.2); /* Translucent white */
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
+}
+
+button {
+  display: inline-block;
+  padding: 24px 32px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: black;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgba(255,255,255,0.2);
+}

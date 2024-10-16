@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pickd. by aaditya - color voter</title>
+    <link rel="icon" href="https://tait.hxouse.com/favicon.ico"/>
+    <link rel="stylesheet" href="https://intellx.in/static/fonts/stylesheet.css"/>
+    <style type="text/css">* {font-family: 'Aeonik'!important} </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body style="background-color: {{ avg_color }};">
+    <div class="main">
+        <h1>Vote for Your Favorite Color</h1>
+        <form method="POST">
+            <input type="color" name="color" value="#ffffff">
+            <button type="submit">Vote</button>
+        </form>
+    </div>
+</body>
+</html>
